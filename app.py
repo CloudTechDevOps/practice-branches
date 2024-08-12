@@ -1,4 +1,4 @@
-import boto3
+import boto4
 client = boto3.client('ec2')
 response = client.run_instances(
      ImageId='ami-068e0f1a600cd311c',
